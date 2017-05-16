@@ -1,2 +1,3 @@
-# java-se-4tw-freestlye
+# Freestyle project
+
 Java SE: 4th TW week's freestyle project
