@@ -1,5 +1,3 @@
-package com.codecool.cinema;
-
 public abstract class StudentWorker extends Employee {
 
     public StudentWorker() {
@@ -11,7 +9,5 @@ public abstract class StudentWorker extends Employee {
     public abstract String getCommand();
 
     public abstract String toString();
-
-
 
 }

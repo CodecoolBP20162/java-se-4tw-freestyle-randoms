@@ -1,21 +1,8 @@
-package com.codecool.cinema;
 
-/**
- * The type Cashier.
- * This Class represents the StudentWorker job
- */
 public class Cashier extends StudentWorker {
 
-    /**
-     * The Salary increase rate.
-     * Declare salary premium.
-     */
     static final double salaryIncreaseRate = 0.1;
 
-    /**
-     * Instantiates a new Cashier.
-     * This method count a monthly salary rate and multiple by salaryIncreaseRate.
-     */
     public Cashier() {
         super();
     }
@@ -37,7 +24,7 @@ public class Cashier extends StudentWorker {
 
     @Override
     public String toString() {
-        return "com.codecool.cinema.Cashier{" +
+        return "Cashier{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", salary=" + salary +

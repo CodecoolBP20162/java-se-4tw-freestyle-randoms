@@ -1,9 +1,21 @@
 package com.codecool.cinema;
 
+/**
+ * The type Ticket puncher.
+ * This Class represents the StudentWorker job.
+ */
 public class TicketPuncher extends StudentWorker {
 
+    /**
+     * The Salary increase rate.
+     * Declare salary premium.
+     */
     static final double salaryIncreaseRate = 0.5;
 
+    /**
+     * Instantiates a new Ticket puncher.
+     * This method count a monthly salary rate and multiple by salaryIncreaseRate.
+     */
     public TicketPuncher() {
         super();
     }

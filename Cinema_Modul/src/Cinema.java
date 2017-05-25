@@ -1,5 +1,3 @@
-package com.codecool.cinema;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,8 +5,6 @@ public class Cinema {
 
     List<StudentWorker> students;
     List<Leader> managers;
-    List<Leader> managers2;
-    List<Leader> leader;
 
     Chief chief = Chief.getInstance();
 
@@ -17,9 +13,6 @@ public class Cinema {
     public Cinema(int monthlyTurnover) {
         students = new ArrayList<>();
         managers = new ArrayList<>();
-        managers2 = new ArrayList<>();
-        leader = new ArrayList<>();
-
 
         this.monthlyTurnover = monthlyTurnover;
     }
@@ -40,23 +33,5 @@ public class Cinema {
         managers.add(Chief.getInstance());
         return managers;
     }
-
-    public List<Leader> hireOneManager(int oneOfManager) {
-        for (int i = 0; i < oneOfManager || i !=1; i++) {
-            managers2.add(new Manager());
-        }
-        managers2.add(new Manager());
-        return managers2;
-    }
-
-    public List<Leader> oneLeader(int OneLeader) {
-        for (int i = 0; i < OneLeader || i !=1; i++){
-            leader.add(new Manager());
-        }
-        leader.add(new Manager());
-        return leader;
-    }
-
-
 
 }
