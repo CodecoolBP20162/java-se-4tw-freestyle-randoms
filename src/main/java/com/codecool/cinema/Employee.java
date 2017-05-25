@@ -1,5 +1,8 @@
 package com.codecool.cinema;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -32,6 +35,9 @@ public abstract class Employee {
      */
     public static int counter = 1;
 
+    private static final Logger logger = LoggerFactory.getLogger(TicketPuncher.class);
+
+
     /**
      * Instantiates a new Employee.
      */
@@ -39,6 +45,8 @@ public abstract class Employee {
         this.id = counter++;
         this.name = setName();
         this.salary = setSalary();
+        logger.info("Employee created with {} id with {}.",this.id, this.salary);
+
     }
 
     /**
