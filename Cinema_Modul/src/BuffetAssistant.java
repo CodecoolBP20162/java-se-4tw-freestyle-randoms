@@ -1,21 +1,8 @@
-package com.codecool.cinema;
 
-/**
- * The type Buffet assistant.
- * This Class represents the StudentWorker job.
- */
 public class BuffetAssistant extends StudentWorker {
 
-    /**
-     * The Salary increase rate.
-     * Declare salary premium.
-     */
     static final double salaryIncreaseRate = 0.7;
 
-    /**
-     * Instantiates a new Buffet assistant.
-     * This method count a monthly salary rate and multiple by salaryIncreaseRate.
-     */
     public BuffetAssistant() {
         super();
     }
@@ -37,7 +24,7 @@ public class BuffetAssistant extends StudentWorker {
 
     @Override
     public String toString() {
-        return "com.codecool.cinema.BuffetAssistant{" +
+        return "BuffetAssistant{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", salary=" + salary +
