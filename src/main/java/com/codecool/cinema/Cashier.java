@@ -1,9 +1,18 @@
 package com.codecool.cinema;
 
+/**
+ * The type Cashier.
+ */
 public class Cashier extends StudentWorker {
 
+    /**
+     * The Salary increase rate.
+     */
     static final double salaryIncreaseRate = 0.1;
 
+    /**
+     * Instantiates a new Cashier.
+     */
     public Cashier() {
         super();
     }

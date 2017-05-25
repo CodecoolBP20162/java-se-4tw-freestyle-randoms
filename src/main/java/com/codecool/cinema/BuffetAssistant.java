@@ -1,9 +1,18 @@
 package com.codecool.cinema;
 
+/**
+ * The type Buffet assistant.
+ */
 public class BuffetAssistant extends StudentWorker {
 
+    /**
+     * The Salary increase rate.
+     */
     static final double salaryIncreaseRate = 0.7;
 
+    /**
+     * Instantiates a new Buffet assistant.
+     */
     public BuffetAssistant() {
         super();
     }

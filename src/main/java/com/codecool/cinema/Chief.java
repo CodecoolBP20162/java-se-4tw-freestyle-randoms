@@ -1,5 +1,8 @@
 package com.codecool.cinema;
 
+/**
+ * The type Chief.
+ */
 public class Chief extends Leader {
 
     private static Chief instance = null;
@@ -8,6 +11,11 @@ public class Chief extends Leader {
         super();
     }
 
+    /**
+     * Gets instance.
+     *
+     * @return the instance
+     */
     public static Chief getInstance() {
         if (instance == null) {
             instance = new Chief();
